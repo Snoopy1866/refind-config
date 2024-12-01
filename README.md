@@ -4,7 +4,7 @@ rEFInd 配置文件备份及一些问题的记录。
 
 ## LinuxMint 安装后未被 rEFInd 识别的解决办法
 
-原因：LinuxMint 现阶段使用的是 Ubuntu 的引导，它的引导文件会写入 /EFI/Boot，导致 rRFInd 将其忽略。
+原因：LinuxMint 现阶段使用的是 Ubuntu 的引导，它的引导文件会写入 /EFI/Boot，导致 rEFInd 将其忽略。
 
 1. 从 Ventoy 启动 LinuxMint 镜像，进入 Live 环境
 
